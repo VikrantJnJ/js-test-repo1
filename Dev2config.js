@@ -1,22 +1,6 @@
-// ---------- SITE B CONFIG ----------
-
-    window.siteBConfig = {
-
-    //   ...siteAConfig,
-
-    //   global: {
-
-    //     ...siteAConfig.global,
-
-    //     contentZones: [
-
-    //       ...siteAConfig.global.contentZones,
-
-    //       { name: "extra_zone", selector: ".sc-867e14c-0.LhOcl" }, // extra zone for Dev2 site
-
-    //     ],
-
-    //   },
+ // ---------- SITE B CONFIG ----------
+    const loadsiteBconfig = () => {
+     siteBConfig = {
 
         global: {
 
@@ -93,4 +77,8 @@
 
     };
  
+
+    };
+ 
+
 
